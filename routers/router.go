@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"ihome_go1/controllers"
+	"iHome/controllers"
 	"net/http"
 	"strings"
 

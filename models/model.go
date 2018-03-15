@@ -215,7 +215,7 @@ func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 
 	//orm.RegisterDataBase("default", "mysql", "admin:admin@tcp(192.168.137.130:3306)/ihome_go?charset=utf8")
-	orm.RegisterDataBase("default", "mysql", "root:root@/itcast?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:root@/ihome?charset=utf8")
 
 	//o := orm.NewOrm()
 	orm.RegisterModel(new(User), new(House), new(Area), new(Facility), new(HouseImage), new(OrderHouse))

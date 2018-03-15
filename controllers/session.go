@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"ihome_go1/utils"
+	"iHome/utils"
 
 	"github.com/astaxie/beego"
 )

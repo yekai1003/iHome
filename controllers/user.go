@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	_ "fmt"
 
-	"ihome_go1/utils"
+	"iHome/utils"
 
-	"ihome_go1/models"
+	"iHome/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
